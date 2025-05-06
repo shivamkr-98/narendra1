@@ -1,16 +1,16 @@
 import os
 
-API_ID = os.environ.get("API_ID", "8518495117")
+API_ID = os.environ.get("API_ID", "28996064")
 
-API_HASH = os.environ.get("API_HASH", "d53f389b7da84adc7c8518495117f556")
+API_HASH = os.environ.get("API_HASH", "e09920a63e5f157b85a64ddba66596c6")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7976143213:AAF3qyxP8n-MUH8r7xKLbdPHcRvhzMLXclc")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7858664940:AAH4i3tFVB4UdtsT7c46CySKJHCM7kjvKUE")
 
 PASS_DB = int(os.environ.get("PASS_DB", "721"))
 
-OWNER = int(os.environ.get("OWNER", 5763487616))
+OWNER = int(os.environ.get("OWNER", 6005627579))
 
-LOG = -1002627840353,
+LOG = -1002014173170,
 
 # UPDATE_GRP = , # bot sat group
 
