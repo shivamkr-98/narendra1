@@ -402,7 +402,7 @@ async def account_login(bot: Client, m: Message):
                 keys_string = " ".join([f"--key {key}" for key in keys])
               
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
-             url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={token}"
+             url = f"https://pwplayer-38c1ae95b681.herokuapp.com/pw?url={url}&token={token}"
               
             elif "acecwply" in url:
                 cmd = f'yt-dlp -o "{name}.%(ext)s" -f "bestvideo[height<={raw_text2}]+bestaudio" --hls-prefer-ffmpeg --no-keep-video --remux-video mkv --no-warning "{url}"'
